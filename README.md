@@ -5,7 +5,6 @@ Energy Maps and Charts info and Best Practices
 * [Assumptions](#assumptions)
 * [Libraries](#libraries)
 * [Best Practices](#best-practices)
-<!-- * [Copy Map Template](#copy-map-template) -->
 * [Credits](#credits)
 
 About this page
@@ -44,9 +43,6 @@ Best Practices
 --------------
 The best practices are not written yet but they will be cribbed from the [NPRApps Best Practices](https://github.com/nprapps/bestpractices/blob/master/README.md).
 
-
-<!-- Copy Map Template
------------------ -->
 
 Credits
 -------
