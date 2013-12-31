@@ -42,7 +42,7 @@ Each template has their own documentation on the template page:
 Best Practices
 --------------
 
-## Naming things
+### Naming things
 
 Naming things (variables, files, classes, etc.) consistently and intuitively is one of the hardest problems in computer science. To make it easier, follow these conventions:
 
@@ -66,7 +66,7 @@ Naming things (variables, files, classes, etc.) consistently and intuitively is 
 
 (Note: sometimes these words don't mean the same thing, but when they do, prefer the former.)
 
-## HTML & CSS
+### HTML & CSS
 
 * Element IDs and class names should always be ``lowercase-with-dashes``.
 * Make sure to use a Reset CSS, such as [Meyerweb](http://meyerweb.com/eric/tools/css/reset/).
@@ -74,9 +74,9 @@ Naming things (variables, files, classes, etc.) consistently and intuitively is 
 * Coming Soon: When possible adhere to the energy.gov style guide (link coming.)
 * Coming Soon: Information about 508 compliance.
 
-## Javascript
+### Javascript
 
-### General
+#### General
 
 * Use 4-spaces for indentation
 * Javascript variables names should always be ``lowercase_with_underscores``.
@@ -93,7 +93,7 @@ Naming things (variables, files, classes, etc.) consistently and intuitively is 
 * Use ``===`` rather than ``==``. ([Why?](http://www.impressivewebs.com/why-use-triple-equals-javascipt/))
 * **Use single-quotes for strings.**
 
-### Libraries
+#### Libraries
 
 For consistency, prefer the following libraries to others that perform the same tasks:
 
@@ -110,17 +110,17 @@ For consistency, prefer the following libraries to others that perform the same 
 
 DOE note: all libraries must be approved priort use on energy.gov
 
-### jQuery-specific
+#### jQuery-specific
 
 * jQuery references that are used more than once should be cached. Prefix these references with ``$``, i.e. ``var $electris = $("#electris");``.
 * Whenever possible constrain jQuery DOM lookups within the scope of a cached element. For example, ``$electris.find(".candidate")`` is preferable to ``$(".candidate")``.
 * Always use [on](http://api.jquery.com/on/), never [bind](http://api.jquery.com/bind/), [delegate](http://api.jquery.com/delegate/) or [live](http://api.jquery.com/live/). ``on`` should also be preferred to "verb events", such as [click](http://api.jquery.com/click/).
 
-## git
+### git
 
 At this time we have no recorded best practices for using git.
 
-## More to come
+### More to come
 
 Much more heavy lifting needs to be done here:
 
