@@ -41,7 +41,7 @@ DOE note: all libraries must be approved priort use on energy.gov
 
 Best Practices
 --------------
-Find a comprehensive best practices [here](/tree/master/best_practices).
+Find a comprehensive best practices [here](https://github.com/energyapps/bestpractices).
 
 The best practices page is cribbed from the [NPRApps Best Practices](https://github.com/nprapps/bestpractices/blob/master/README.md).
 

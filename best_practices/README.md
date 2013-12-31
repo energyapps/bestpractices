@@ -1,10 +1,46 @@
-#Energy's Best Practices for Programing maps, charts, and timelines
+Energy's Best Practices for Programing maps, charts, and timelines
+==================================================================
+
+* [About this page](#about-this-page)
+* [Assumptions](#assumptions)
+* [Templates](#templates)
+* [Map, Chart and Timeline Documentation](#map-chart-and-timeline-documentation)
+* [Best Practices](#best-practices)
+* [Credits](#credits)
+
+
+About this page
+---------------
+
+This page will provide best practices, and code snippets for maps, charts, and timelines developed for energy.gov and all of its sub-sites. 
+
+This documentation is currently under active development so beware, use at own risk.  
 
 The contents of this repository are released under a [Creative Commons CC BY 3.0 License](http://creativecommons.org/licenses/by/3.0/deed.en_US).
 
-**Note:** If you're building a map or chart for energy.gov
 
+Assumptions
+-----------
+If you're building a map or chart for energy.gov
+
+ * You can write css, javascript, html.
+ * You have read and grasp the basics of whatever library you are using.
  * You have reviewed the Best Practices (below) and reviewed the map template (if applicable).
+
+Templates
+---------
+You can find the templates here and clone them [here](https://github.com/energyapps/templates).
+
+Map, Chart and Timeline Documentation
+-------------------------------------
+
+Each template has their own documentation on the template page:
+* [Map]() (coming soon)
+* [Highchart]() (coming soon)
+* [Timeline]() (coming soon)
+
+Best Practices
+--------------
 
 ## Naming things
 
@@ -42,7 +78,7 @@ Naming things (variables, files, classes, etc.) consistently and intuitively is 
 
 ### General
 
-* Use 4-spaces for indentation (because it's easier to be consistent with Python than it is to switch your editor back and forth).
+* Use 4-spaces for indentation
 * Javascript variables names should always be ``lowercase_with_underscores``.
 * Static variables and configuration parameters should be in ``TITLECASE_WITH_UNDERSCORES``.
 * Named functions should look like this ``var camelCase = function() {}``.
@@ -93,3 +129,10 @@ Much more heavy lifting needs to be done here:
 * Code review process.
 * Other helpful code snippets.
 * Posting of CSS style guidelines for maps.
+
+
+
+Credits
+-------
+
+This best practices is based off of quality work from the [NPRApps team](https://github.com/nprapps/bestpractices).
