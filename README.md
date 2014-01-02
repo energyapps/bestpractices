@@ -41,6 +41,14 @@ Each template has their own documentation on the template page:
 
 Best Practices
 --------------
+* [Naming things](#naming-things)
+* [HTML & CSS](#HTML-&-CSS)
+* [Javascript](#Javascript)
+	* [General](#General)
+	* [Libraries](#libraries)
+	* [jQuery-specific](#jQuery-specific)
+* [git](#git)
+* [More to come](#more-to-come)
 
 ### Naming things
 
@@ -53,16 +61,16 @@ Naming things (variables, files, classes, etc.) consistently and intuitively is 
 * When a function operates on a variable, their naming should be consistent. If working with `updates` then `process_updates()`, don't `process_changes()`. 
 * Maintain naming conventions between iterables and their iterators: `for update in updates`, not `for record in updates`.
 
-<table>
-  <tr><th>Prefer...</th><th>to...</th></tr>
-  <tr><td>create</td><td>insert, add, new</td></tr>
-  <tr><td>update</td><td>change, edit</td></tr>
-  <tr><td>delete</td><td>remove, purge</td></tr>
-  <tr><td>setup</td><td>init</td></tr>
-  <tr><td>make</td><td>build, generate</td></tr>
-  <tr><td>wrapper</td><td>wrap</td></tr>
-  <tr><td>render</td><td>draw</td></tr>
-</table>  
+
+  |Prefer...|	to...				|
+  |---------|	----------------	|
+  |create 	|	insert, add, new	|
+  |update 	|	change, edit		|
+  |delete 	|	remove, purge		|
+  |setup 	|	init				|
+  |make 	|	build, generate		|
+  |wrapper 	|	wrap				|
+  |render 	|	draw				|
 
 (Note: sometimes these words don't mean the same thing, but when they do, prefer the former.)
 
