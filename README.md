@@ -35,7 +35,7 @@ Map, Chart and Timeline Documentation
 -------------------------------------
 
 Each template has their own documentation on the template page:
-* [Map]() (coming soon)
+* [Map](https://github.com/energyapps/templates/blob/master/map/README.md)
 * [Highchart]() (coming soon)
 * [Timeline]() (coming soon)
 
