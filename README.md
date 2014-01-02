@@ -1,4 +1,4 @@
-Energy's Best Practices for Programing maps, charts, and timelines
+Energy's Best Practices for Programming maps, charts, and timelines
 ==================================================================
 
 * [About this page](#about-this-page)
