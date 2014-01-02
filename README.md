@@ -42,11 +42,11 @@ Each template has their own documentation on the template page:
 Best Practices
 --------------
 * [Naming things](#naming-things)
-* [HTML & CSS](#HTML-&-CSS)
-* [Javascript](#Javascript)
-	* [General](#General)
+* [HTML & CSS](#html-&-css)
+* [Javascript](#javascript)
+	* [General](#general)
 	* [Libraries](#libraries)
-	* [jQuery-specific](#jQuery-specific)
+	* [jQuery-specific](#jquery-specific)
 * [git](#git)
 * [More to come](#more-to-come)
 
