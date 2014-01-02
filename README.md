@@ -42,7 +42,7 @@ Each template has their own documentation on the template page:
 Best Practices
 --------------
 * [Naming things](#naming-things)
-* [HTML & CSS](#html-&-css)
+* [HTML & CSS](#html-and-css)
 * [Javascript](#javascript)
 	* [General](#general)
 	* [Libraries](#libraries)
@@ -74,7 +74,7 @@ Naming things (variables, files, classes, etc.) consistently and intuitively is 
 
 (Note: sometimes these words don't mean the same thing, but when they do, prefer the former.)
 
-### HTML & CSS
+### HTML and CSS
 
 * Element IDs and class names should always be ``lowercase-with-dashes``.
 * Make sure to use a Reset CSS, such as [Meyerweb](http://meyerweb.com/eric/tools/css/reset/).
