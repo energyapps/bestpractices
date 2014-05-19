@@ -1,9 +1,4 @@
-## Batch Geocoding for Use in Tilemill
-
-If you are creating a map with [Tilemill](www.mapbox.com/tilemill), or you just need a KML of a set of points, you can use [batchgeo.com](http://batchgeo.com/) to create a KML.
-
-If you want transform that KML into a SHP, geojson, csv, etc, I'd recommend using [QGIS](http://www.qgis.org/en/site/).
-
+## Batch Geocoding 
 ### What you need
 
 To begin, you need a csv or excel document with an address for each record. Not all address fields are required, but the more specific you can be with the address the more accurate the geocoding will be.
@@ -17,7 +12,11 @@ For instance:
 
 Batchgeo.com has provided a [sample template](http://batchgeo.com/excel_example.xls). You can add your own columns as well, or get rid of ones you don't need (email, URL, etc.)
 
-### Geocoding
+### Geocoding with google docs (slightly more advanced)
+
+Consult this guide: https://www.mapbox.com/blog/mapping-google-doc-spreadsheet/
+
+### Geocoding with batchgeo.com (less advanced)
 
 Once you have a spreadsheet with your records and addresses, you simply cut and paste your data into [batchgeo.com](http://batchgeo.com). Make sure to include a header row. (To you nerds, out there, your spreadsheet will show up as a tab-seperated value on the batchgeo, once you paste it.) 
 
