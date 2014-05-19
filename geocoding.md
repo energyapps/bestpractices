@@ -1,4 +1,8 @@
 ## Batch Geocoding 
+
+You can use either [Google Docs](https://www.mapbox.com/blog/mapping-google-doc-spreadsheet/) or [Batchgeo.com](http://batchgeo.com/).
+
+
 ### What you need
 
 To begin, you need a csv or excel document with an address for each record. Not all address fields are required, but the more specific you can be with the address the more accurate the geocoding will be.
@@ -17,6 +21,10 @@ Batchgeo.com has provided a [sample template](http://batchgeo.com/excel_example.
 Consult this guide: https://www.mapbox.com/blog/mapping-google-doc-spreadsheet/
 
 ### Geocoding with batchgeo.com (less advanced)
+
+If you are creating a map with [Tilemill](www.mapbox.com/tilemill), or you just need a KML of a set of points, you can use [batchgeo.com](http://batchgeo.com/) to create a KML.
+
+If you want transform that KML into a SHP, geojson, csv, etc, I'd recommend using [QGIS](http://www.qgis.org/en/site/).
 
 Once you have a spreadsheet with your records and addresses, you simply cut and paste your data into [batchgeo.com](http://batchgeo.com). Make sure to include a header row. (To you nerds, out there, your spreadsheet will show up as a tab-seperated value on the batchgeo, once you paste it.) 
 
