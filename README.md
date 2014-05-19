@@ -138,8 +138,6 @@ Much more heavy lifting needs to be done here:
 * Other helpful code snippets.
 * Posting of CSS style guidelines for maps.
 
-
-
 Credits
 -------
 
