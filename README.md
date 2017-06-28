@@ -1,3 +1,5 @@
+**NOTE** this is an old and unused repo
+
 Energy's Best Practices for Programming maps, charts, and timelines
 ==================================================================
 
